@@ -125,3 +125,16 @@ BOARD_CUSTOM_GRAPHICS := ../../../device/kttech/s220/recovery/graphics.c
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/kttech/s220/recovery/recovery_keys.c
 BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
 TARGET_USERIMAGES_USE_EXT4 := true
+
+
+#TWRP CONFIGUREATION By 베가레이cer
+DEVICE_RESOLUTION := 480x800
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TW_INTERNAL_STORAGE_PATH := "/sdcard"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_FLASH_FROM_STORAGE := true
+TW_HAS_REBOOT_BOOTLOADER := true
+TW_HAS_REBOOT_BOOTLOADER := true
+TW_CUSTOM_POWER_BUTTON := 116

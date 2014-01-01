@@ -1,1 +1,1 @@
-add_lunch_combo s220-eng
+add_lunch_combo cm_s220-eng
