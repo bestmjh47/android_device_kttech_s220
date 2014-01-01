@@ -4,7 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product-if-exists, vendor/kttech/s220/s220-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/kttech/s220/overlay
+#DEVICE_PACKAGE_OVERLAYS += device/kttech/s220/overlay
 
 PRODUCT_COPY_FILES += device/common/gps/gps.conf_AS:system/etc/gps.conf
 
@@ -149,7 +149,7 @@ PRODUCT_PACKAGES += \
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8660 \
-    gralloc.msm8660 \
+#    gralloc.msm8660 \
     hwcomposer.msm8660 \
     libgenlock \
     libmemalloc \
